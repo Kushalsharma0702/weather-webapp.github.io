@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .weather-app {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .weather-app h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .weather-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-header input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .weather-header button {
+    padding: 10px;
+    border: none;
+    background: #4facfe;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .weather-header button:hover {
+    background: #00f2fe;
+  }
+  
+  .weather-info {
+    display: none;
+  }
+  
+  #cityName {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
